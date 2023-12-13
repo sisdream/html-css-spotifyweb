@@ -11,7 +11,7 @@ body{
    overflow: hidden;
 }
 
-/* HEADER FISSO CON BTN  */
+/* HEADER NAVBAR  */
 
 .bar{
     width: 250px;
@@ -22,7 +22,9 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
+
 /* DIV LOGO */
+
 .logo img{
     color: #fff;
     width: 150px;
@@ -81,12 +83,15 @@ button{
     margin-right: 20px;
 }
 
-/* MAIN CENTALE CON BAR E MUSICA */
+/* MAIN CENTALE MUSICA */
 
 main{
     display: flex;
     background-color: #141922;   
 }
+
+/* SEZIONE BARRA OPACA */
+
 .opaca{
     width: calc(100% - 200px);
     height: 100px;
@@ -99,7 +104,20 @@ main{
     align-items: center;
 }
 
+/* BARRA NAVIGAZIONE */
 
+.nav-music{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+li a{
+    color: #a3a3a3;
+    text-decoration: none; 
+}
 
 /* SECTION MUSICA */
 
@@ -114,6 +132,8 @@ h2{
     color: #fff;
     margin: 20px;
 }
+
+/* SECTION CARD MUSIC DA SEI */
 
 .container{
     margin: 0 20px;
@@ -133,20 +153,7 @@ h2{
 .card img{
     width: 180px;
 }
-/* BARRA NAVIGAZIONE */
 
-.nav-music{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    font-size: 0.8rem;
-}
-
-li a{
-    color: #a3a3a3;
-    text-decoration: none; 
-}
 
 
 
