@@ -61,6 +61,8 @@ main{
     display: none;
 }
 
+/* SECTION PER ME */
+
 .per-me img{
     width: 30px;
     color: #a3a3a3;
@@ -73,31 +75,28 @@ main{
     font-size: 0.8rem;
 }
 
+/* SECTION PLAYLIST */
+
 h3{
     color: #fff;
     margin: 10px;
 }
 
 .fa-square-plus{
-    font-size: 30px;
+    font-size: 40px;
     margin-right: 6px;
 }
 
+.list-playlist{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 20px 10px;
+    list-style: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SECTION MUSICA */
 
 .musica{
     margin-top: 120px;
@@ -106,6 +105,26 @@ h3{
     overflow: scroll;
     color: #a3a3a3;
 }
+h2{
+    color: #fff;
+    margin: 20px;
+}
+
+.container{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: calc(100% / 6 - 40px);
+    
+}
+
+.card img{
+    width: 180px;
+}
+/* BARRA NAVIGAZIONE */
 
 .nav-music{
     list-style: none;
