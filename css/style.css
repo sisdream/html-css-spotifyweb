@@ -9,12 +9,12 @@ body{
 
 /* HEADER FISSO CON BTN  */
 header{
-    width: 100%;
+    width: calc(100% - 250px);
     height: 120px;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #080b12;
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -31,9 +31,47 @@ button{
 
 /* MAIN CENTALE CON BAR E MUSICA */
 
+main{
+    display: flex;
+    background-color: #141922;
+}
 
+.bar{
+    width: 250px;
+    height: calc(100vw - 120px);
+    background-color: #000000;
+    color: #a3a3a3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.logo img{
+    color: #fff;
+    width: 150px;
+    margin: 20px;
+}
 
+.musica{
+    margin-top: 120px;
+    background-color: #141922;
+    width:calc(100% - 250px);
+    overflow: scroll;
+    color: #a3a3a3;
+    
+}
 
 
 /* FOOTER CON BAR APP */
+
+footer{
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #282828;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
