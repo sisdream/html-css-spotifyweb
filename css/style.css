@@ -6,37 +6,12 @@
 body{
    font-family: Montserrat;
    font-weight: bold;
+   height: 100vh;
+   display: flex;
+   overflow: hidden;
 }
 
 /* HEADER FISSO CON BTN  */
-header{
-    width: calc(100% - 250px);
-    height: 100px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-button{
-    background-color: #080b12;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 6px 20px;
-    border-radius: 15px;
-    height: 40px;
-    margin-right: 20px;
-}
-
-/* MAIN CENTALE CON BAR E MUSICA */
-
-main{
-    display: flex;
-    background-color: #141922;   
-}
 
 .bar{
     width: 250px;
@@ -96,12 +71,42 @@ h3{
     list-style: none;
 }
 
+button{
+    background-color: #080b12;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 15px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* MAIN CENTALE CON BAR E MUSICA */
+
+main{
+    display: flex;
+    background-color: #141922;   
+}
+.opaca{
+    width: calc(100% - 200px);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
 /* SECTION MUSICA */
 
 .musica{
     margin-top: 120px;
     background-color: #141922;
-    width:calc(100% - 250px);
+    width:calc(100% - 40px);
     overflow: scroll;
     color: #a3a3a3;
 }
@@ -118,7 +123,11 @@ h2{
 
 .card{
     width: calc(100% / 6 - 40px);
-    
+    text-align: center;
+}
+
+.card h3{
+    font-size: 0.8rem;
 }
 
 .card img{
@@ -146,7 +155,7 @@ li a{
 footer{
     width: 100%;
     height: 120px;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     right: 0;
     background-color: #282828;
