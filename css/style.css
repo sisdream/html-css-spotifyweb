@@ -176,7 +176,7 @@ h2{
 /* SECTION CARD MUSIC DA SEI */
 
 .container{
-    margin: 0 20px;
+    margin: 40px 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -200,11 +200,38 @@ h2{
 
 /* SECTION CARD PER DOE */
 
-.per-doe{
+.brani{
     justify-content: flex-start;
     gap: 3rem;
     text-align: start;
 }
+
+/* SECTION POPOLARI */
+
+.card-circle img{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER CON BAR APP */
 
