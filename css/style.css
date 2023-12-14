@@ -51,6 +51,17 @@ body{
     align-items: center;
     margin: 10px 20px;
     font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.per-me:hover{
+    color: #fff;
+}
+
+.home::before {
+    content: "|";
+    font-size: 1.5rem;
+    color: #adfc2e;
 }
 
 /* SECTION PLAYLIST */
@@ -74,18 +85,12 @@ h3{
     list-style: none;
     overflow: scroll;
     height: 100px;
+    cursor: pointer;
 }
 
-button{
-    background-color: #080b12;
-    border: 1px solid #fff;
+.list-playlist li:hover{
     color: #fff;
-    padding: 6px 20px;
-    border-radius: 15px;
-    height: 40px;
-    margin-right: 20px;
 }
-
 /* SECTION INSTALLA E PROFILE */
 
 .istalla-prof{
@@ -151,6 +156,20 @@ main{
     align-items: center;
 }
 
+button{
+    background-color: #080b12;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 15px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
 /* BARRA NAVIGAZIONE */
 
 .nav-music{
@@ -166,6 +185,16 @@ main{
 li a{
     color: #a3a3a3;
     text-decoration: none; 
+}
+
+li a:hover{
+    color: #fff;
+}
+
+.evidenza::after{
+    content: "";
+    border-bottom: 3px solid #adfc2e;
+    display: block;
 }
 
 /* SECTION MUSICA */
