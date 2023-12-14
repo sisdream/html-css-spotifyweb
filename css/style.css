@@ -83,7 +83,7 @@ h3{
     gap: 0.7rem;
     margin: 20px 10px;
     list-style: none;
-    overflow: scroll;
+    overflow-y: auto;
     height: 100px;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@ h3{
 
 main{
     display: flex;
-    background-color: #141922;   
+    background-color: #141922; 
 }
 
 /* SEZIONE BARRA OPACA */
@@ -202,7 +202,7 @@ li a:hover{
 .musica{
     margin: 100px 0;
     width:calc(100% - 10px);
-    overflow: scroll;
+    overflow-y: auto;
     color: #a3a3a3;
 }
 
@@ -281,7 +281,7 @@ footer{
     height: 90px;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     background-color: #282828;
 }
 
