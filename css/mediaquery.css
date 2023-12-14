@@ -2,9 +2,6 @@
 /* MEDIA M */
 
 @media (min-width: 769px) and (max-width: 992px){
-    .opaca{
-        width: calc(100% - 190px);
-    }
     .container{
         justify-content: flex-start;
         gap: 2rem;
@@ -27,9 +24,6 @@
 @media (min-width: 576px) and (max-width: 768px){
     .bar{
         height: 100%;
-    }
-    .opaca{
-        width: calc(100% - 190px);
     }
     .container{
         gap: 1rem;

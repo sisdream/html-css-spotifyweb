@@ -140,7 +140,7 @@ main{
 /* SEZIONE BARRA OPACA */
 
 .opaca{
-    width: calc(100% - 200px);
+    width: calc(100% - 190px);
     height: 100px;
     position: fixed;
     top: 0;
@@ -188,10 +188,11 @@ h2{
     margin: 40px 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .card{
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 2rem);
     text-align: center;
 }
 
@@ -200,7 +201,7 @@ h2{
 }
 
 .card img{
-    width: 180px;
+    width: 100%;
 }
 
 .sottotitolo{
