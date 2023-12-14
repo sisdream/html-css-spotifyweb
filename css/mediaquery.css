@@ -1,38 +1,26 @@
 
+/* MEDIA M */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 769px) and (max-width: 992px){
+    .opaca{
+        width: calc(100% - 190px);
+    }
+    .container{
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .card{
+        flex-shrink: 0;
+        width: calc(100% / 4 - 2rem);
+    }
+    .rip-music{
+        width: 380px;
+    }
+    .min,
+    .max{
+        top: 45px;
+    }  
+}
 
 /* MEDIA S */
 

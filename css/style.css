@@ -187,7 +187,6 @@ h2{
 .container{
     margin: 40px 20px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -236,6 +235,7 @@ footer{
 #footer{
     display: flex;
     justify-content: space-around;
+    gap: 1.6rem;
 }
 
 /* SECTION BRANO */
