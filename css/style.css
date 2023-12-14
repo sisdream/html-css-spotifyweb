@@ -339,21 +339,3 @@ footer{
     position: relative;
 }
 
-
-/* MEDIA XS */
-@media screen and (max-width: 576px){
-    header{
-        width: calc(100% - 50px);
-    }
-    .bar{
-        width: 50px;
-    }
-    .logo img{
-        display: none;
-    }
-    .logo-small img{
-        display: block;
-        margin: 10px;
-    }
-
-}
