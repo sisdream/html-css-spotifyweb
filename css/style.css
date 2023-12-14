@@ -16,7 +16,7 @@ body{
 
 .bar{
     width: 250px;
-    height: calc(100vw - 120px);
+    height: calc(100vw - 90px);
     background-color: #000000;
     color: #a3a3a3;
     display: flex;
@@ -73,6 +73,7 @@ h3{
     margin: 20px 10px;
     list-style: none;
     overflow: scroll;
+    height: 100px;
 }
 
 button{
@@ -85,6 +86,12 @@ button{
     margin-right: 20px;
 }
 
+/* SECTION INSTALLA E PROFILE */
+
+.istalla-prof{
+    margin-top: 100px;
+}
+
 /* SECTION INSTALLA */
 
 .istalla{
@@ -93,7 +100,6 @@ button{
     width: 160px;
 }
 .istalla .per-me{
-    margin-top: 80px;
     font-size: 0.7rem;
     display: flex;
     align-items: center;
@@ -154,6 +160,7 @@ main{
     gap: 1rem;
     font-size: 0.8rem;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 li a{
@@ -169,6 +176,7 @@ li a{
     overflow: scroll;
     color: #a3a3a3;
 }
+
 h2{
     color: #fff;
     margin: 20px;
@@ -180,6 +188,7 @@ h2{
     margin: 40px 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -222,8 +231,11 @@ footer{
     bottom: 0;
     right: 0;
     background-color: #282828;
+}
+
+#footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* SECTION BRANO */

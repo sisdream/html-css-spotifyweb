@@ -2,10 +2,11 @@
 /* MEDIA XS */
 @media screen and (max-width: 576px){
     header{
-        width: calc(100% - 50px);
+        width: 50px;
     }
     .bar{
         width: 50px;
+        height: calc(100% - 90px);
     }
     .logo img{
         display: none;
@@ -14,5 +15,76 @@
         display: block;
         margin: 10px;
     }
+    .per-me span{
+        display: none;
+    }
+    .per-me{
+        margin: 10px;
+    }
+    .playlist{
+        display: none;
+    }
+    .istalla-prof{
+        margin-top: 350px;
+    }
+    .istalla{
+       border: 0;
+       margin: 0;
+    }
+    .istalla img{
+        width: 30px;
+    }
+    .profile span{
+        display: none;
+    }
+    .img-profile img{
+        width: 30px;
+        height: 30px;
+    }
+    .opaca{
+        width: calc(100% - 50px);
+    }
+    .container{
+        gap: 2rem;
+    }
+    .card{
+        width: calc(100% / 2 - 2rem);
+    }
+    #footer{
+        gap: 3rem;
+    }
+    .brano{
+        gap: 0;
+    }
+    .icona-brano{
+        flex-wrap: wrap;
+    }
+    .icona-rip i{
+        font-size: 1rem;
+    }
+    .rip-music{
+        width: 140px;
+    }
+    .music-min{
+        width: 50px;
+    }
+    .min,
+    .max{
+        top: 45px;
+    }
+    .icona-vol{
+        font-size: 0.7rem;
+    }
+    .volume{
+        gap: 1rem;
+    }
+    .vol-music{
+        width: 50px;
+    }
+    .vol-min{
+        width: 10px;
+    }
+
+  
 
 }

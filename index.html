@@ -39,7 +39,7 @@
             </div>  
         </section>
         <!-- SECTION PLAYLIST -->
-        <section>
+        <section class="playlist">
             <h3>PLAYLIST</h3>
             <div class="per-me">
                 <i class="fa-solid fa-square-plus"></i>
@@ -55,19 +55,22 @@
                 <li>Nome Playlist</li>
             </ul>
         </section>
-        <!-- SECTION INSTALLA -->
-        <section class="istalla">
-            <div class="per-me">
-                <img src="./img/download.svg" alt="download">
-                <span>Istalla app</span>
-            </div>
-        </section>
-        <!-- SECTION PROFILE -->
-        <section class="profile">
-            <div class="img-profile">
-                <img src="./img/profile.svg" alt="profile">
-                <span>John Doe</span>
-            </div>
+        <!-- SECTION INSTALLA E PROFILE -->
+        <section class="istalla-prof">
+            <!-- SECTION INSTALLA -->
+            <section class="istalla">
+                <div class="per-me">
+                    <img src="./img/download.svg" alt="download">
+                    <span>Istalla app</span>
+                </div>
+            </section>
+            <!-- SECTION PROFILE -->
+            <section class="profile">
+                <div class="img-profile">
+                    <img src="./img/profile.svg" alt="profile">
+                    <span>John Doe</span>
+                </div>
+            </section>
         </section>
     </header>
   <!-- MAIN CENTALE MUSICA -->
@@ -160,48 +163,50 @@
   </main>
   <!-- FOOTER CON BAR APP -->
   <footer>
-    <!-- SECTION BRANO -->
-    <section class="brano">
-        <div class="card-brano">
-            <img src="./img/sinister.jpeg" alt="sinister">
-            <div class="info">
-                <h5>Sinister</h5>
-                <h6>Brano nome</h6>
+    <section id="footer">
+         <!-- SECTION BRANO -->
+        <section class="brano">
+            <div class="card-brano">
+                <img src="./img/sinister.jpeg" alt="sinister">
+                <div class="info">
+                    <h5>Sinister</h5>
+                    <h6>Brano nome</h6>
+                </div>
+             </div>
+             <div class="icona icona-brano">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
             </div>
-        </div>
-        <div class="icona">
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-regular fa-folder"></i>
-        </div>
-    </section>
-    <!-- SECTION RIPRODUZIONE -->
-    <section class="riproduzione">
-        <div class="icona">
-            <i class="fa-solid fa-shuffle"></i>
-            <i class="fa-solid fa-forward-step fa-rotate-180"></i>
-            <i class="fa-regular fa-circle-play"></i>
-            <i class="fa-solid fa-forward-step"></i>
-            <i class="fa-solid fa-rotate-right"></i>
-        </div>
+        </section>
+        <!-- SECTION RIPRODUZIONE -->
+        <section class="riproduzione">
+            <div class="icona icona-rip">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-forward-step fa-rotate-180"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
 
-        <div class="rip-music">
-          <div class="min">0:25</div>
-          <div class="music-min">
-            <div class="circle"></div>
-          </div>
-          <div class="max">4:35</div>
-        </div>
-    </section>
-    <!-- SECTION VOLUME -->
-    <section class="volume">
-       <div class="icona">
-            <i class="fa-solid fa-list-ul"></i>
-            <i class="fa-solid fa-desktop"></i>
-            <i class="fa-solid fa-volume-high"></i>
-       </div>
-       <div class="vol-music">
-        <div class="vol-min"></div>
-      </div>
+            <div class="rip-music">
+                <div class="min">0:25</div>
+                <div class="music-min">
+                    <div class="circle"></div>
+                </div>
+                <div class="max">4:35</div>
+            </div>
+        </section>
+        <!-- SECTION VOLUME -->
+        <section class="volume">
+            <div class="icona icona-vol">
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <div class="vol-music">
+                <div class="vol-min"></div>
+            </div>
+        </section>
     </section>
   </footer>  
 </body>
