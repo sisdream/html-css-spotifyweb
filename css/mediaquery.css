@@ -1,5 +1,75 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA S */
+
+@media (min-width: 576px) and (max-width: 768px){
+    .bar{
+        height: 100%;
+    }
+    .opaca{
+        width: calc(100% - 190px);
+    }
+    .container{
+        gap: 1rem;
+    }
+    .card{
+        width: calc(100% / 2 - 1rem);
+    }
+    #footer{
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .icona-brano{
+        flex-wrap: wrap;
+    }
+    .rip-music{
+        width: 170px;
+    }
+    .music-min{
+        width: 50px;
+    }
+    .min,
+    .max{
+        top: 45px;
+    }
+}
+
 /* MEDIA XS */
+
 @media screen and (max-width: 576px){
     header{
         width: 50px;
@@ -84,7 +154,4 @@
     .vol-min{
         width: 10px;
     }
-
-  
-
 }
