@@ -227,14 +227,41 @@ h2{
 
 .card h3{
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 .card img{
     width: 100%;
+    cursor: pointer;
 }
 
 .sottotitolo{
     margin: 20px;
+}
+
+.testa{
+    position: relative;
+}
+
+.testa img:hover{
+    filter: opacity(0.4);
+}
+
+.icon-hover{
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    right: 37%;
+}
+
+.icon-hover i{
+    color: transparent;
+    filter: opacity(0.4);
+}
+
+.icon-hover i:hover{ 
+   color: #fff;
+   filter: opacity(1);
 }
 
 /* SECTION CARD PER DOE */
