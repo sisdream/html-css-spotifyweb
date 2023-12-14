@@ -290,16 +290,27 @@ footer{
     font-size: 1rem;
     color: #fff;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .info h6{
     color: #a3a3a3;
 }
 
+.info h6:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
 .icona{
     color: #a3a3a3;
     display: flex;
     gap: 1rem;
+    cursor: pointer;
+}
+
+.icona i:hover{
+    color: #fff;
 }
 
 /* SECTION RIPRODUZIONE */
@@ -313,8 +324,7 @@ footer{
 }
 
 .riproduzione i{
-    color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .rip-music{
@@ -322,12 +332,15 @@ footer{
   margin-top: 15px;
   height: 5px;
   width: 500px;
-  
+}
+.icona-rip{
+    display: flex;
+    gap: 2rem;
 }
 
 .min{
     position: absolute;
-    top: 57px;
+    top: 50px;
     right: 100%;
     color: #a3a3a3;
     font-size: 0.6rem;
@@ -336,7 +349,7 @@ footer{
 
 .max{
     position: absolute;
-    top: 57px;
+    top: 50px;
     left: 100%;
     color: #a3a3a3;
     font-size: 0.6rem;
@@ -350,13 +363,24 @@ footer{
     position: relative;
 }
 
-/* .circle{
-    height: 12px;
-    width: 12px;
+.music-min:hover{
+    background-color: #adfc2e;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    background-color: green;
+    background-color: transparent;
     position: absolute;
-} */
+    right: 0;
+    bottom: -4px;
+    cursor: pointer;
+}
+
+.circle:hover{
+    background-color: #adfc2e;
+}
 
 /* SECTION VOLUME */
 
@@ -379,5 +403,9 @@ footer{
     height: 5px;
     width: 20px;
     position: relative;
+}
+
+.vol-min:hover{
+    background-color: #adfc2e;
 }
 
