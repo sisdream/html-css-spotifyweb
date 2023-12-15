@@ -37,7 +37,7 @@
     }
     .min,
     .max{
-        top: 60px;
+        top: 40px;
     }  
 }
 
@@ -53,6 +53,9 @@
     .card{
         width: calc(100% / 2 - 1rem);
     }
+    .istalla-prof{
+        margin-top: 60px;
+    }
     #footer{
         gap: 1rem;
         justify-content: space-between;
@@ -60,15 +63,22 @@
     .icona-brano{
         flex-wrap: wrap;
     }
+    .icona-rip i{
+        font-size: 1rem;
+    }
     .rip-music{
         width: 170px;
     }
     .music-min{
         width: 50px;
     }
-    .min,
+    .min{
+        top: 45px;
+        right: 90%;
+    }
     .max{
         top: 45px;
+        left: 90%;
     }
 }
 
@@ -99,7 +109,7 @@
         display: none;
     }
     .istalla-prof{
-        margin-top: 680px;
+        margin-top: 300px;
     }
     .istalla{
        border: 0;
@@ -125,7 +135,7 @@
         width: calc(100% / 2 - 2rem);
     }
     #footer{
-        gap: 3rem;
+        gap: 1.5rem;
     }
     .brano{
         gap: 0;
@@ -142,9 +152,13 @@
     .music-min{
         width: 50px;
     }
-    .min,
+    .min{
+        top: 45px;
+        right: 85%;
+    }
     .max{
         top: 45px;
+        left: 85%;
     }
     .icona-vol{
         font-size: 0.7rem;
@@ -156,6 +170,6 @@
         width: 50px;
     }
     .vol-min{
-        width: 10px;
+        width: 22px;
     }
 }
